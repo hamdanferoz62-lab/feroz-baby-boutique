@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Us — Feroz Sons Kids Collection</title>
+<meta name="description" content="Learn about Feroz Sons Kids Collection — Karachi's trusted newborn brand.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <nav class="nav-wrap">
+    <a href="index.html" class="logo">Feroz Sons <span>Kids Collection</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-page="home">Home</a></li>
+      <li><a href="products.html" data-page="products">Products</a></li>
+      <li><a href="about.html" data-page="about" class="active">About</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+      <li><a href="login.html" data-page="login">Login</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="cart-btn" id="openCart">🛒 Cart <span class="cart-count">0</span></button>
+      <button class="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero" style="padding:60px 20px">
+    <div class="container" style="text-align:center">
+      <h1 style="font-family:'Playfair Display',serif;font-size:2.6rem">Our Story</h1>
+      <p style="color:var(--muted);margin-top:10px">Caring for your little one, since day one.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?w=800&q=80" alt="Newborn baby">
+        </div>
+        <div class="about-text">
+          <h2>Where every product is chosen with love</h2>
+          <p>Feroz Sons Kids Collection began with a simple idea — give parents in Karachi a place where every item is safe, soft, and beautifully made. From our shop in Clifton Block 8, we've grown into a trusted name for newborn essentials.</p>
+          <p>We hand-pick every feeder, blanket, suit and toy. We test for safety, feel for softness, and choose for joy. Because the first months matter most.</p>
+          <a href="products.html" class="btn">Explore Our Collection</a>
+        </div>
+      </div>
+
+      <div class="values">
+        <div class="value-card"><div class="ico">🌿</div><h3>Gentle & Safe</h3><p>BPA-free, hypoallergenic, baby-skin-tested.</p></div>
+        <div class="value-card"><div class="ico">✂️</div><h3>Quality Craft</h3><p>Soft cottons, sturdy stitching, lasting joy.</p></div>
+        <div class="value-card"><div class="ico">💝</div><h3>Honest Prices</h3><p>Premium products at family-friendly rates.</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button class="close-cart" id="closeCart" aria-label="Close">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total</span><span id="cartTotal">Rs 0</span></div>
+    <button class="btn" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Feroz Sons Kids Collection</h4>
+        <p>Premium newborn essentials, lovingly curated for your little one. Soft fabrics, safe materials, sweet prices.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="WhatsApp">💬</a>
+          <a href="#" aria-label="TikTok">🎵</a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html">Newborn Suits</a></li>
+          <li><a href="products.html">Feeders & Bottles</a></li>
+          <li><a href="products.html">Toys & Blankets</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">My Account</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>📞 0323 2426938</p>
+        <p>📍 Clifton Block 8, Mehran Shopping Center, Shop 34 & 50, Karachi</p>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Feroz Sons Kids Collection. All rights reserved.</div>
+  </div>
+</footer>
+<script src="script.js"></script></body></html>
