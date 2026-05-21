@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ferozsons kids collection" },
+      { name: "description", content: "Feroz Sons Baby Haven is a responsive e-commerce website for newborn baby products." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ferozsons kids collection" },
+      { property: "og:description", content: "Feroz Sons Baby Haven is a responsive e-commerce website for newborn baby products." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ferozsons kids collection" },
+      { name: "twitter:description", content: "Feroz Sons Baby Haven is a responsive e-commerce website for newborn baby products." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/XyLui8AB6MNhZG2sDsUEGhcQp8F2/social-images/social-1779381780228-Black_Modern_Minimalist_Portfolio_A4_Landscape.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/XyLui8AB6MNhZG2sDsUEGhcQp8F2/social-images/social-1779381780228-Black_Modern_Minimalist_Portfolio_A4_Landscape.webp" },
     ],
     links: [
       {
