@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home — Feroz Sons Kids Collection</title>
+<meta name="description" content="Premium newborn baby products — suits, feeders, toys, blankets & more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <nav class="nav-wrap">
+    <a href="index.html" class="logo">Feroz Sons <span>Kids Collection</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" data-page="home" class="active">Home</a></li>
+      <li><a href="products.html" data-page="products">Products</a></li>
+      <li><a href="about.html" data-page="about">About</a></li>
+      <li><a href="contact.html" data-page="contact">Contact</a></li>
+      <li><a href="login.html" data-page="login">Login</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="cart-btn" id="openCart">🛒 Cart <span class="cart-count">0</span></button>
+      <button class="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="fade-up">
+        <h1>Soft beginnings for your <em>little one</em></h1>
+        <p>Discover lovingly crafted newborn essentials — from snuggly suits and gentle feeders to playful toys and cozy blankets. Everything baby needs, in one place.</p>
+        <div class="hero-cta">
+          <a href="products.html" class="btn">Shop Now</a>
+          <a href="about.html" class="btn btn-outline">Our Story</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?w=900&q=80" alt="Happy newborn baby">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title"><h2>Shop by Category</h2><p>Everything you need, beautifully organized</p></div>
+      <div class="cat-grid">
+        <a href="products.html" class="cat-card"><div class="icon">🍼</div><h4>Feeders & Bottles</h4></a>
+        <a href="products.html" class="cat-card"><div class="icon">👶</div><h4>Newborn Suits</h4></a>
+        <a href="products.html" class="cat-card"><div class="icon">👟</div><h4>Baby Shoes</h4></a>
+        <a href="products.html" class="cat-card"><div class="icon">🧸</div><h4>Toys</h4></a>
+        <a href="products.html" class="cat-card"><div class="icon">🧣</div><h4>Blankets</h4></a>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff7ee">
+    <div class="container">
+      <div class="section-title"><h2>Featured Products</h2><p>Hand-picked favourites loved by parents</p></div>
+      <div class="product-grid" id="featuredGrid"></div>
+      <div style="text-align:center;margin-top:40px">
+        <a href="products.html" class="btn">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="features">
+        <div class="feature"><div class="ico">🚚</div><h4>Free Delivery</h4><p>On orders above Rs 2,500</p></div>
+        <div class="feature"><div class="ico">🛡️</div><h4>Safe Materials</h4><p>BPA-free & baby-tested</p></div>
+        <div class="feature"><div class="ico">💛</div><h4>Loved by Parents</h4><p>1000+ happy families</p></div>
+        <div class="feature"><div class="ico">↩️</div><h4>Easy Returns</h4><p>7-day return policy</p></div>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button class="close-cart" id="closeCart" aria-label="Close">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total</span><span id="cartTotal">Rs 0</span></div>
+    <button class="btn" id="checkoutBtn">Checkout</button>
+  </div>
+</aside>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Feroz Sons Kids Collection</h4>
+        <p>Premium newborn essentials, lovingly curated for your little one. Soft fabrics, safe materials, sweet prices.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="WhatsApp">💬</a>
+          <a href="#" aria-label="TikTok">🎵</a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="products.html">Newborn Suits</a></li>
+          <li><a href="products.html">Feeders & Bottles</a></li>
+          <li><a href="products.html">Toys & Blankets</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">My Account</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>📞 0323 2426938</p>
+        <p>📍 Clifton Block 8, Mehran Shopping Center, Shop 34 & 50, Karachi</p>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Feroz Sons Kids Collection. All rights reserved.</div>
+  </div>
+</footer>
+<script src="script.js"></script></body></html>
