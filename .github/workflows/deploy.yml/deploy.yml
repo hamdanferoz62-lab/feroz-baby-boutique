@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - sundusferoz-website
+    branches: 
+      - sundusferoz-website 
 
 permissions:
   contents: read
